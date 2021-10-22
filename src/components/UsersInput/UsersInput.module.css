@@ -1,0 +1,9 @@
+.users-input {
+  width: 30rem;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+}

@@ -1,6 +1,6 @@
 .users-display {
   width: 30rem;
-  background-color: #113cfc;
+  background-color: var(--ac1-color);
   margin: 1rem auto;
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem;
 }

@@ -1,0 +1,39 @@
+.users-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.users-form__inputs {
+}
+
+.users-form__input {
+  display: flex;
+  flex-direction: column;
+}
+
+.users-form__input:not(:first-child){
+  margin: 0.5rem 0;
+}
+
+.users-form__input label {
+  width: 20rem;
+  font-weight: bold;
+}
+
+.users-form__input input {
+  padding: 0.5rem 1rem;
+  background-color: gray;
+}
+
+.users-form__buttons {
+  align-self: flex-end;
+  margin: 0.25rem 0;
+}
+
+.users-form__buttons button{
+  background-color: black;
+  color: whitesmoke;
+  font-weight: bold;
+  border: none;
+  padding: 0.25rem 0.5rem;
+}
