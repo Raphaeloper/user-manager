@@ -1,12 +1,13 @@
 import styles from "./UsersDisplay.module.css";
 
+import Card from "../UI/Card";
 import UsersList from "./UsersList";
 
 function UsersDisplay({ users }) {
   return (
-    <div className={styles["users-display"]}>
+    <Card className={styles["users-display"]}>
       <UsersList users={users} />
-    </div>
+    </Card>
   );
 }
 
